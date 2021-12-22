@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.fadein, .color, .grow, .shrink, .rotate{
+    display: inline-block;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: grey;
+    font-size: x-large;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.fadein{
+    opacity: 0.5;
+}
+
+.fadein:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.color:hover{
+    color: black;
+}
+
+.grow:hover{
+    transform: scale(1.2,1.2);
+}
+
+.shrink:hover{
+    transform: scale(0.7,0.7);
+}
+
+.rotate:hover{
+    transform: rotate(-20deg);
+}
+
+.double{
+    width: 244px;
+    height: 100px;
+    cursor: pointer;
+    position: relative;
+    border: 4px gray;
+    display: inline-block;
+    text-align: center;
+   
+}
+
+.clickme{ 
+    background-color: white;
+    color: gray;
+    position: absolute;
+    border: 2px solid grey;
+    width: 242px;
+    height: 95px;
+    padding-top: 50px;
+    margin-top: 28px;
+}
+
+.clickme2{
+    background-color: grey;
+    position: absolute;
+    width: 0px;
+    height: 100px;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 50px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 28px;
+}
+
+.clickme3{
+    position: absolute;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 50px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 28px;
+    color: gray;
+    transition: 0.5s;
+    margin-left: 90px;
+}
+.double:hover .clickme3{
+    position: absolute;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 50px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 28px;
+    color:white;
+    transition-duration: 0.5s;
+}
+.double:hover .clickme2{
+    width: 250px;
+    display: block;
+    cursor: pointer;
+    transition: 0.5s;
+    color:white;
+}
